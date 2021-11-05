@@ -7,13 +7,24 @@ package edu.fiu.sysdesign;
  * @author elenaozyman
  *
  */
-public class Light {
-
+public class Light extends Sensor {
+public String lightType;
+public String status;
+public String color;
 	/**
 	 * 
 	 */
-	public Light() {
-		// TODO Auto-generated constructor stub
-	}
 
+public void change() {
+	
 }
+public  void start(){
+	
+}
+
+public void stop() {
+	
+}
+}
+
+	
