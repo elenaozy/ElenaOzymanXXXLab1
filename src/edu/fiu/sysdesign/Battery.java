@@ -8,12 +8,12 @@ package edu.fiu.sysdesign;
  *
  */
 public class Battery {
-
+public int batteryType;
 	/**
 	 * 
 	 */
 	public Battery() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 }

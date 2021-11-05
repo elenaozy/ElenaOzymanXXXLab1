@@ -1,9 +1,19 @@
 package edu.fiu.sysdesign;
 
 public class Camera {
+public String cameraType;
 
-	public Camera() {
-		// TODO Auto-generated constructor stub
+/**
+ * detect an object
+ * @return
+ */
+	public void objecttracking(){
+		
 	}
-
+	/**
+	 * Make an image
+	 */
+	public double getimage() {
+		return getimage();
+	}
 }

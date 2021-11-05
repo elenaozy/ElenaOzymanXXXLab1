@@ -14,17 +14,13 @@ public class FreenoveRobot {
 	public int kitType;
 	public int batteryCapacity;
 	
-	public FreenoveRobot(String name, int kitType, int batteryCapacity) {
-		super();
-		this.name = name;
-		this.kitType = kitType;
-		this.batteryCapacity = batteryCapacity;
-	}
 	
-	/**
-	 * Make a move
-	 */
+	public FreenoveRobot(String name2, int kitType2, int batteryCappacity) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void makemove() {
+		
 	}
 	
 	/**
