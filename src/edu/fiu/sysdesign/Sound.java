@@ -13,11 +13,11 @@ public int duration;
 
 
 
-	public String soundType() {
+	public String addSound() {
 		return soundType;
 	}
 
-	public void soundType(String soundType) {
+	public void getSound(String soundType) {
 		this.soundType = soundType;
 	}
 

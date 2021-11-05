@@ -10,8 +10,11 @@ public class RobotDog extends FreenoveRobot {
 
 	public RobotDog(String name, int kitType, int batteryCappacity, String bodyShape, int speedlevel) {
 		super(name, kitType, batteryCappacity);
-	
 	}
 
-}
 
+	public void tracking() {
+	
+	}
+}
+	
