@@ -4,7 +4,6 @@ public class Rasberry_PI_Board {
 public String boardtype;
 
 	public Rasberry_PI_Board() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public String getBoardType() {
