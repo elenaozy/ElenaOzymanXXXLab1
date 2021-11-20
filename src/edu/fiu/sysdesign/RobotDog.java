@@ -5,16 +5,55 @@ package edu.fiu.sysdesign;
  *
  */
 public class RobotDog extends FreenoveRobot {
-	public String bodyShape;
+    public String AcrylicParts;
+	public int numberoflegs;
 	public int speedLevel;
+	public int servos;
 
 	public RobotDog(String name, int kitType, int batteryCappacity, String bodyShape, int speedlevel) {
 		super(name, kitType, batteryCappacity);
 	}
+ 
 
-
-	public void tracking() {
+	public void mainLoop() {
 	
 	}
-}
+
+	public void swichstate() {
+		
+	}
+public void waitingforCommand() {
+		
+	}
+
+public void resting() {
+		
+	}
+
+public void MovingForward() {
+		
+	}
+
+public void TurningLeft() {
+		
+	}
+public void TurningRight() {
 	
+}
+public void ReversingLeft() {
+	
+}
+public void ReversingRight() {
+	
+}
+public void ScanObject() {
+	
+}
+public void HeadUp() {
+	
+}
+public void HeadDown() {
+	
+}
+
+}

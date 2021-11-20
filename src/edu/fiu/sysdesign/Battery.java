@@ -12,7 +12,8 @@ public int batteryType;
 	/**
 	 * 
 	 */
-	public Battery() {
+	public double getBatteryPercentage() {
+		return batteryType;
 		
 	}
 
