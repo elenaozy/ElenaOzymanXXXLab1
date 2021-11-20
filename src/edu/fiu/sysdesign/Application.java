@@ -8,11 +8,11 @@ package edu.fiu.sysdesign;
  *
  */
 public class Application {
-public String applicationtype;
+public String applicationType;
 	/**
 	 * 
 	 */
-	public void onFRorwardCommand() {
+	public void onForwardCommand() {
 
 
 	}

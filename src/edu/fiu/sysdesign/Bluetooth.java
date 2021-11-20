@@ -8,7 +8,7 @@ package edu.fiu.sysdesign;
  *
  */
 public class Bluetooth {
-public String connectiontype;
+public String connectionType;
 	/**
 	 * 
 	 */

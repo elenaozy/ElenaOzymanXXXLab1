@@ -8,7 +8,7 @@ public class RobotDog extends FreenoveRobot {
     public String AcrylicParts;
 	public int numberoflegs;
 	public int speedLevel;
-	public int servos;
+	public int servosnumber;
 
 	public RobotDog(String name, int kitType, int batteryCappacity, String bodyShape, int speedlevel) {
 		super(name, kitType, batteryCappacity);
@@ -19,7 +19,7 @@ public class RobotDog extends FreenoveRobot {
 	
 	}
 
-	public void swichstate() {
+	public void swichState() {
 		
 	}
 public void waitingforCommand() {
