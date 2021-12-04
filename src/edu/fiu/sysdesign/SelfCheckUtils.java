@@ -198,20 +198,22 @@ public class SelfCheckUtils {
 		
 		@Override
 		public boolean selfCheck() {
-			// TODO Auto-generated method stub
 			return SelfCheckUtils.randomCheck(0.1);
 		}
 		
 		@Override
 		public String getComponentName() {
-			// TODO Auto-generated method stub
 			return name;
 		}
 
 		@Override
 		public boolean runSelfCheck() {
-			// TODO Auto-generated method stub
 			return SelfCheckUtils.basicSelfCheckRunner(this);
+		}
+
+		@Override
+		public boolean runSeldCheck() {
+			return false;
 		}
 	}
 	

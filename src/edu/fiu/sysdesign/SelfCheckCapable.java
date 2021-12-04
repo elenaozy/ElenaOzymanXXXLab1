@@ -51,4 +51,6 @@ public interface SelfCheckCapable {
 	 */
 	public boolean runSelfCheck();
 
+	boolean runSeldCheck();
+
 }
